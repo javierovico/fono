@@ -1,9 +1,13 @@
 /********** Template CSS **********/
 :root {
-    --primary: #13C5DD;
+    --primary: #f57982;
     --secondary: #354F8E;
     --light: #EFF5F9;
     --dark: #1D2A4D;
+}
+
+.text-primary {
+    color: #f57982 !important;
 }
 
 .btn {
@@ -97,7 +101,7 @@
 }
 
 .hero-header {
-    background: url(../img/hero.jpg) top right no-repeat;
+    background: url(../img/perfil.jpg) top right no-repeat;
     background-size: cover;
 }
 

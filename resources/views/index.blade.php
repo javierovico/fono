@@ -15,11 +15,11 @@
     <div class="container py-5">
         <div class="row justify-content-start">
             <div class="col-lg-8 text-center text-lg-start">
-                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5" style="border-color: rgba(256, 256, 256, .3) !important;">Welcome To Medinova</h5>
-                <h1 class="display-1 text-white mb-md-4">Best Healthcare Solution In Your City</h1>
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5" style="border-color: rgba(256, 256, 256, .3) !important;">Bienvenidos</h5>
+                <h1 class="display-1 text-white mb-md-4">Estimulemos su potencial</h1>
                 <div class="pt-2">
-                    <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2">Find Doctor</a>
-                    <a href="" class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2">Appointment</a>
+                    <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2">Agendar</a>
+{{--                    <a href="" class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2">Appointment</a>--}}
                 </div>
             </div>
         </div>
@@ -34,41 +34,51 @@
         <div class="row gx-5">
             <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded" src="{{asset('img/about.jpg')}}" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded" src="{{asset('img/about2.jpg')}}" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-7">
                 <div class="mb-4">
-                    <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">About Us</h5>
+                    <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Acerca de</h5>
                     <h1 class="display-4">Best Medical Care For Yourself and Your Family</h1>
                 </div>
-                <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
-                <div class="row g-3 pt-3">
-                    <div class="col-sm-3 col-6">
-                        <div class="bg-light text-center rounded-circle py-4">
-                            <i class="fa fa-3x fa-user-md text-primary mb-3"></i>
-                            <h6 class="mb-0">Qualified<small class="d-block text-primary">Doctors</small></h6>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 col-6">
-                        <div class="bg-light text-center rounded-circle py-4">
-                            <i class="fa fa-3x fa-procedures text-primary mb-3"></i>
-                            <h6 class="mb-0">Emergency<small class="d-block text-primary">Services</small></h6>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 col-6">
-                        <div class="bg-light text-center rounded-circle py-4">
-                            <i class="fa fa-3x fa-microscope text-primary mb-3"></i>
-                            <h6 class="mb-0">Accurate<small class="d-block text-primary">Testing</small></h6>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 col-6">
-                        <div class="bg-light text-center rounded-circle py-4">
-                            <i class="fa fa-3x fa-ambulance text-primary mb-3"></i>
-                            <h6 class="mb-0">Free<small class="d-block text-primary">Ambulance</small></h6>
-                        </div>
-                    </div>
-                </div>
+                <p>
+                    Nadie mejor que vos, mami o papi, para darse cuenta de que a su hijo/a le cuesta lograr algunas cosas cuando de comunicarse se trata.
+                    El momento en que decidas actuar es el inicio de todas las cosas buenas que se desencadenarán a partir de eso. Y te aliento!
+                    Cada camino es distinto y cada uno de ellos conllevan desafíos distintos.
+                    En el tiempo que estoy ejerciendo esta hermosa profesión, me di cuenta de dos cosas:
+                    <ul>
+                        <li>Que los padres son los aliados ideales.</li>
+                        <li>Cada niño es un mundo inmenso de grandes posibilidades.</li>
+                    </ul>
+                    Intervención temprana = amor.
+                </p>
+{{--                <div class="row g-3 pt-3">--}}
+{{--                    <div class="col-sm-3 col-6">--}}
+{{--                        <div class="bg-light text-center rounded-circle py-4">--}}
+{{--                            <i class="fa fa-3x fa-user-md text-primary mb-3"></i>--}}
+{{--                            <h6 class="mb-0">Qualified<small class="d-block text-primary">Doctors</small></h6>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-sm-3 col-6">--}}
+{{--                        <div class="bg-light text-center rounded-circle py-4">--}}
+{{--                            <i class="fa fa-3x fa-procedures text-primary mb-3"></i>--}}
+{{--                            <h6 class="mb-0">Emergency<small class="d-block text-primary">Services</small></h6>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-sm-3 col-6">--}}
+{{--                        <div class="bg-light text-center rounded-circle py-4">--}}
+{{--                            <i class="fa fa-3x fa-microscope text-primary mb-3"></i>--}}
+{{--                            <h6 class="mb-0">Accurate<small class="d-block text-primary">Testing</small></h6>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-sm-3 col-6">--}}
+{{--                        <div class="bg-light text-center rounded-circle py-4">--}}
+{{--                            <i class="fa fa-3x fa-ambulance text-primary mb-3"></i>--}}
+{{--                            <h6 class="mb-0">Free<small class="d-block text-primary">Ambulance</small></h6>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
         </div>
     </div>
@@ -80,7 +90,7 @@
 <div class="container-fluid py-5">
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Services</h5>
+            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Servicios</h5>
             <h1 class="display-4">Excellent Medical Services</h1>
         </div>
         <div class="row g-5">
